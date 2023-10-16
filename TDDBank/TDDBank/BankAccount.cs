@@ -24,5 +24,19 @@ namespace TDDBank
 
             Balance -= v;
         }
+
+
+        public bool IsNowWeekend()
+        {
+            return DateTime.Now.DayOfWeek == DayOfWeek.Sunday ||
+                   DateTime.Now.DayOfWeek == DayOfWeek.Saturday;
+        }
+
+
+        public bool IsFileFullOfBeer()
+        {
+            return File.ReadAllText("ö:\\WichtigDatei.txt") == "🍺";
+        }
+
     }
 }
