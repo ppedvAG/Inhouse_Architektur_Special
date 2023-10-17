@@ -4,7 +4,7 @@ using System.Data;
 
 namespace ppedv.CarRent8000.Logic
 {
-    public class RentService
+    public class RentService : IRentService
     {
         private readonly IRepository repository;
 
