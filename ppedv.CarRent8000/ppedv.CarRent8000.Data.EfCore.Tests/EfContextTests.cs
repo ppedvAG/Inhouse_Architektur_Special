@@ -59,7 +59,7 @@ namespace ppedv.CarRent8000.Data.EfCore.Tests
             fix.Behaviors.Add(new OmitOnRecursionBehavior());
             fix.Customizations.Add(new PropertyNameOmitter(nameof(Entity.Id)));
 
-            var car =   fix.Create<Car>();
+            var car = fix.Create<Car>();
 
             using (var con = new EfContext(conString))
             {
@@ -70,8 +70,8 @@ namespace ppedv.CarRent8000.Data.EfCore.Tests
             using (var con = new EfContext(conString))
             {
                 var loaded = con.Cars.Find(car.Id);
-                loaded.Should().BeEquivalentTo(car,x=>x.IgnoringCyclicReferences());
-                
+                loaded.Should().BeEquivalentTo(car, x => x.IgnoringCyclicReferences());
+
             }
         }
 
