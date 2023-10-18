@@ -27,8 +27,6 @@ var container = builder.Build();
 
 
 
-
-
 IRepository repo = container.Resolve<IRepository>();
 IRentService rentService = container.Resolve<IRentService>();
 
