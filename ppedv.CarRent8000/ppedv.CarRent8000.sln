@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ppedv.CarRent8000.Logic.Tes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ppedv.CarRent8000.UI.DevConsole", "ppedv.CarRent8000.UI.DevConsole\ppedv.CarRent8000.UI.DevConsole.csproj", "{34D4AA2A-0990-4570-8549-4141E85E95C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.CarRent8000.UI.WebMVC", "ppedv.CarRent8000.UI.WebMVC\ppedv.CarRent8000.UI.WebMVC.csproj", "{C305D8B0-DE14-4F9D-9629-6A0B0DA3605A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ppedv.CarRent8000.UI.WebMVC", "ppedv.CarRent8000.UI.WebMVC\ppedv.CarRent8000.UI.WebMVC.csproj", "{C305D8B0-DE14-4F9D-9629-6A0B0DA3605A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.CarRent8000.Api", "ppedv.CarRent8000.Api\ppedv.CarRent8000.Api.csproj", "{3317CE5C-ABF6-4E47-B167-EF895C264675}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{C305D8B0-DE14-4F9D-9629-6A0B0DA3605A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C305D8B0-DE14-4F9D-9629-6A0B0DA3605A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C305D8B0-DE14-4F9D-9629-6A0B0DA3605A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3317CE5C-ABF6-4E47-B167-EF895C264675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3317CE5C-ABF6-4E47-B167-EF895C264675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3317CE5C-ABF6-4E47-B167-EF895C264675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3317CE5C-ABF6-4E47-B167-EF895C264675}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
